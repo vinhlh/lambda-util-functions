@@ -1,0 +1,5 @@
+{
+  "jobName": "sentry-clean",
+  "jobQueue": "sentry-clean",
+  "jobDefinition": "sentry-clean"
+}
