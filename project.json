@@ -1,0 +1,9 @@
+{
+  "name": "lambda-util-functions",
+  "description": "Collection of utility functions",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::589072213673:role/lambda-util-functions_lambda_function",
+  "environment": {},
+  "runtime": "nodejs8.10"
+}
