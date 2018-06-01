@@ -3,7 +3,7 @@ const aws = require('aws-sdk');
 
 exports.handle = λ(async event => {
   const { jobName, jobQueue, jobDefinition } = event
-  return new AWS.Batch()
+  return new aws.Batch()
     .submitJob({
       jobName,
       jobQueue,
